@@ -10,5 +10,8 @@ exports.addPost = (req, res, next) => {
         messages: "created succ",
         post: { id: new Date().toISOString(), title:title}
 
-    })
+    }) 
 }
+
+
+
